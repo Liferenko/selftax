@@ -4,9 +4,18 @@ class Income_money:
     money_goes_to_mastercard = 0
     money_which_can_spend_after_next_income = 0
     money_for_this_moment = 0
+    percent_of_tax_to_my_future = 0.1
 
-    # TODO What can do this Income money?
-
+    # TODO refactor if-else (now looks horrible)
+    # def check_for_choice_future_tax_percent(income_money_before_tax):
+    #     if income_money_before_tax >= 5000 or money_goes_to_mastercard >= 5000:
+    #         percent_of_tax_to_my_future = 0.2
+    #         print("Tax percentage = 0.2")
+    #         return percent_of_tax_to_my_future
+    #     else:
+    #         percent_of_tax_to_my_future = 0.1
+    #         print("Tax percentage = 0.1")
+    #         return percent_of_tax_to_my_future
 
     # TODO How to add already existing sum_block when money_for_this_moment less then sum_block
 
